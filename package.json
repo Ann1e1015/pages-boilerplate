@@ -1,0 +1,42 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "description": "Awesome node modules.",
+  "keywords": [
+    "my-project",
+    "zce"
+  ],
+  "repository": "zce/my-project",
+  "license": "MIT",
+  "author": "annie1015 <371046515@qq.com> (https://github.com/Ann1e1015)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "jest --coverage",
+    "prepare": "npm run lint && npm run test"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "26.6.3",
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
