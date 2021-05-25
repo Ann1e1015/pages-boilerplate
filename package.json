@@ -10,6 +10,7 @@
   "license": "MIT",
   "author": "annie1015 <371046515@qq.com> (https://github.com/Ann1e1015)",
   "main": "lib/index.js",
+  "bin": "lib/index.js",
   "files": [
     "lib"
   ],
